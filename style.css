@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+    background-color: rgb(247, 238, 226);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.homepage {
+    height: 90vh;
+    width: 100%;
+    background: url(hahaha.jpg);
+    background-size: cover;
+}
+.homepage .content {
+    display: flex;
+    height: 85%;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homepage .content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.homepage .content .text {
+    margin-bottom: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+blockquote {
+    border-left: 5px solid #5c4e2f;
+}
+section h2 {
+    font-size: 2rem;
+}
+
+section > p {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container > p {
+    text-align: center;
+}
+
+section h3 {
+    font-weight: 700;
+}
+
+.container h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container h1 {
+    text-align: left;
+}
+
+section .cards .card {
+    background: rgb(78, 49, 22);
+    padding: 40px 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    margin-bottom: 40px;
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+  }
+  
+.trivia .cards .card {
+    padding: 0 0 20px;
+    align-items: center;
+    display: flex;
+}
+  
+.trivia .card img {
+    width: 100%;
+    padding-bottom: 10px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.trivia .card p {
+    padding: 0 15px;
+    margin-top: 5px;
+}
+
+.about .team {
+    text-align: left;
+    width: 100%;
+  }
+
+  .about .row {
+    padding: 0 10px;
+  }
+
+  @media screen and (max-width: 560px) {
+    section .cards .card {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .about .cards-container {
+    Display: flex;
+    Justify-content: space-around;
+  }
+  
+  .about .card {
+    Width: calc(35% - 50px);
+    Margin-bottom: 20px;
+    Background-color: #fff;
+    Padding: 20px;
+    Border-radius: 10px;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about .card h3 {
+    Font-size: 1.5rem;
+    Margin-bottom: 30px;
+  }
+  
+  .about .card p {
+    Font-size: 1rem;
+    padding-top: 15px;
+  }
+  
+  .about p {
+    margin-top: 7px;
+  }
+
+  .profiles {
+    Display: flex;
+    Flex-wrap: wrap;
+    Justify-content: center;
+    Gap: 13px;
+  }
+  
+  .profile {
+    Background-color: #492a1b;
+    Border-radius: 7px;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    Width: calc(30% - 20px);
+    Text-align: center;
+  }
+  
+  .profile img {
+    Border-radius: 50%;
+    Width: 120px;
+    Height: 120px;
+    Object-fit: cover;
+    Margin-bottom: 5px;
+    Margin-top: 30px
+  }
+
+  .row-team h4 {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 17px;
+  }
+  
+  .profile h3 {
+    Margin-top: 15px;
+  }
+  
+  .profile p {
+    Font-size: 20px;
+    Margin-bottom: 15px;
+  }
+
+  .about h2 {
+    Margin-bottom: -10px;
+  }
+  
+  .about p {
+    Margin-bottom: 50px;
+  }
+  
+  .about .card h3, p,
+  .team .profile h3 {
+    Font-weight: normal;
+  }
